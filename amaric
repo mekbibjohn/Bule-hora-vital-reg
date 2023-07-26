@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>መነሻ ገጽ</title>
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  background-color: lightblue;
+}
+
+div.ex1{
+border: 15px solid black;
+  padding: 3px; 
+margin: 3px;
+  resize: horizontal;
+  overflow: auto;
+  width:98%;
+}
+    h1 {
+ text-shadow: -1px -1px 1px #aaa,
+font-family: "Times New Roman", Times, serif;
+font-size: 40px;
+
+}
+h4 {
+ text-shadow: -1px -1px 1px #aaa,
+font-family: "Times New Roman", Times, serif;
+font-size: 80px;
+text-align: center;
+	font-weight: bold;
+}
+.nav{
+    height: 100px; /* Whatever you want. */
+}
+th{
+	background-color:hsl(white);
+	padding: 15px;
+	border-collapse: collapse;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DEB887;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+</style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icomoon-social.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css">
+	 <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+	 <link href="css/coming-soon-social.css" rel="stylesheet" type="text/css"/>
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<div class="ex1">
+		<img src="../PhpProject1/Untitled34.png" alt="" width="100%" height="150" />
+			<div>
+  <nav id="mainmenu" class="mainmenu">
+                <ul>
+                    <li class="active">
+                        <a  class="active" href="index.php"><b>መነሻ ገጽ</b></a>
+                    </li>
+                    <li class="has-submenu">
+                        <a  class="active" href="#"><b>ስለ</b></a>
+                        <div class="mainmenu-submenu">
+                            <div class="mainmenu-submenu-inner"> 
+                                <div>
+                                    <ul>
+                                        <li><strong><a  class="active" href="about.php#background"><b>Background</b></a></strong></li>
+                                        <li><strong><a  class="active" href="about.php#mission"><b>ተልዕኮ</b></a></strong></li>
+                                        <li><strong><a class="active"  href="about.php#vision"><b>ራዕይ</b></a></strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a class="active" href="contact.php"><b>አግኙን</b></a>
+                    </li>
+                    <li class="active">
+                        <a class="active" href="news.php"><b>ኒው</b></a>
+                    </li>
+                    <li class="active">
+                        <a class="active" href="help.php"><b>እገዛ</b></a>
+                    </li>
+					<li class="active">
+                        <a class="active" href="login.php"</i><i class="fa fa-fw fa-user"></i><b>ግባ</b></a>
+                    </li>  
+					<li class="has-submenu">
+                        <a  class="active" href="#"><b>ቋንቋ</b></a>
+                        <div class="mainmenu-submenu">
+                            <div class="mainmenu-submenu-inner"> 
+                                <div>
+                                    <ul>
+                                        <li><strong><a  class="active" href="about.php#background"><b>ኢንግሊሽ</b></a></strong></li>
+                                        <li><strong><a  class="active" href="about.php#mission"><b>አማሪክ</b></a></strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+			</ul>
+            </nav>
+            </div>
+    <div class="homepage-slider">
+        <div id="sequence">
+            <ul class="sequence-canvas">
+                <li class="bg4">
+                    <h2 class="title">ወሳኝ ኩነቶችን ይመዝግቡ</h2>
+                    <h3 class="subtitle">ልደት, ጋብቻ, ፍቺ እና ሞት</h3>
+                    <img class="slide-img" src="img/background.jpg" alt=""/>
+                </li>
+                <li class="bg3">
+                    <h2 class="title"> ጋብቻ ይመዝግቡ </h2>
+                    <h3 class="subtitle">ጋብቻ!</h3>
+                    <img class="slide-img" src="img/background.jpg" alt=""/>
+                    <img class="slide-img" src="img/picture2.PNG" alt=""/>    
+                </li>
+                <li class="bg1">
+                    <h2 class="title">Register Event Well</h2>
+                    <h3 class="subtitle">make register event well!</h3>
+                    <img class="slide-img" src="img/background.jpg" alt=""/>
+                </li>
+            </ul>
+            <div class="sequence-pagination-wrapper">
+                <ul class="sequence-pagination">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-9">
+                    <h1>ወደ ወሳኝ ኩነቶች ምዝገባ በደህና መጡ</h1>
+                    <h4>
+					<b>
+					ዋና ዋና ሁነቶች በህይወት ህይወት መወለድ, ሞት, ፍቺ እና ጋብቻ ውስጥ ዋና ዋና ክስተቶች ናቸው.
+                        Vital events are the events those are main happenings in the 
+                        life time like birth, death, divorse and marriage. Since these
+                        kinds of events are the main components for any personal profile,
+                        they should be registered well. From the time when Assosa town 
+                        vital event registration office is organized as a scope of town, 
+                        the office is registering the vital events. Now the event 
+                        registrations are available in the town scope.
+						</b>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-copyright">&copy; <?php echo date("Y")?> Group 2 Students. All rights reserved.</div>
+                </div>
+            </div>
+    </div>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.sequence-min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/main-menu.js"></script>
+    <script src="js/template.js"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<html><body><img src="akk.jpg" alt="Girl in a jacket" width="500" height="600"/> </html></body> 
